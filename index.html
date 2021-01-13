@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>e-commerce</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-primary fixed-top">
+            <div class="container-fluid">
+              <img src="images/logo.png">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#shoes">Shoes</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#backpack">Backpack</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#subscribe" tabindex="-1" aria-disabled="true">Subscribe</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <section>
+            <div id="carouselExampleIndicators" class="carousel slide panda-slide mt-5" data-bs-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+                  <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+                  <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="row d-flex align-items-center p-5">
+                        <div class="col-md-7">
+                          <h1>24'' SONY PLUS HD LED TV</h1>
+                          <p>If you want android TV / Smart tv ,for Play:Youtube ,Android Apps,Pc,Net browsing ,Watcing TV etc ,This Smart tv gives all solution </p>
+                          <h3>$1200</h3>
+                        </div>
+                        <div class="col-md-5"><img src="images/banner-images/tv.png" class="d-block w-100" alt="..."></div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="row d-flex align-items-center p-5">
+                        <div class="col-md-7">
+                          <h1>P47 - Wireless Bluetooth Headphone - Black</h1>
+                          <p> With no wires in the way, Bose SoundSport Wireless Sports Earbuds keep you moving with powerful audio. Perfect for exercise and running with a sweat and weather resistant design and StayHear®+ tips designed for comfort and stability.</p>
+                          <h3>$150</h3>
+                        </div> 
+                        <div class="col-md-5"><img src="images/banner-images/headphone.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="row d-flex align-items-center p-5">
+                        <div class="col-md-7">
+                          <h1>Xbox 360 Elite 120GB</h1>
+                          <p>Microsoft's next-generation Xbox 360 video game machine, shown here mounted in large demonstration units, drawing visitors at the Tokyo Game Show in 2005.</p>
+                          <h3>$600</h3>
+                        </div>
+                        <div class="col-md-5"><img src="images/banner-images/xbox.png"></div>
+                    </div>
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </a>
+              </div>
+          </section>
+    </header>
+    <main class="container">
+        <section class="container overflow-hidden mt-5 panda-container">
+            <div class="row g-5">
+              <div class="col">
+               <div class="p-3 rounded bg-warning d-flex justify-content-around align-items-center">
+                   <h3 class="text-white">Watch</h3>
+                   <img src="images/categories/watch.png">
+               </div>
+              </div>
+              <div class="col">
+                <div class="p-3 rounded bg-success d-flex justify-content-around align-items-center">
+                    <h3 class="text-white">Bag</h3>
+                    <img src="images/categories/bag.png">
+                </div>
+               </div>
+               <div class="col">
+                <div class="p-3 rounded bg-primary d-flex justify-content-around align-items-center">
+                    <h3 class="text-white">Shoe</h3>
+                    <img src="images/categories/shoes.png">
+                </div>
+               </div>
+              
+            </div>
+        </section>
+        <section id="shoes" class="mt-5">
+          <h3>Shoes</h3>
+          <section class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card h-100 shadow panda-card">
+                <img src="images/shoes/shoe-1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Nike Air Zoom Pegasus 37</h5>
+                  <p class="card-text">Reinvigorate your stride with the Nike Air Zoom Pegasus 37. Delivering the same fit and feel that runners love, the shoe has an all-new forefoot cushioning unit and foam for maximum responsiveness. The result is a durable, lightweight trainer designed for everyday running. It features graphics designed by musician Chaz Bear.</p>
+                </div>
+                <div class="card-footer panda-card-footer">
+                  <div class="btn btn-warning">Buy now >></div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 shadow panda-card">
+                <img src="images/shoes/shoe-2.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Nike 360</h5>
+                  <p class="card-text">React Infinity Run Flyknit 2 continues to help keep you running. A refreshed upper uses Flywire technology that combines with Flyknit for support and breathability where you need it. The high foam heights provide soft responsiveness and long-lasting comfort. It's still one of our most tested shoes, designed to help you feel the potential when your foot hits the pavement.</p>
+                </div>
+                <div class="card-footer panda-card-footer">
+                  <div class="btn btn-warning">Buy now >></div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 shadow panda-card">
+                <img src="images/shoes/shoe-3.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title"> Red Air-Max</h5>
+                  <p class="card-text">Keep moving in wet conditions. The Red Air-Max provides waterproof protection for runners, trail athletes and outdoor enthusiasts. Versatile enough for everyday training, it features an ideal fit and optimal traction for your miles.</p>
+                </div>
+                <div class="card-footer panda-card-footer">
+                  <div class="btn btn-warning">Buy now >></div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </section>
+        <section id="backpack" class="mt-5">
+          <h3>Backpack</h3>
+          <section class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card h-100 shadow panda-card">
+                <img src="images/bags/bag-1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Red Fastrack</h5>
+                  <h3>$120</h3>
+                  <p class="card-text">Fastrack Red Apollo Polyester ErgoLight Backpack for Guys Recommended by National Health Academy.</p>
+                </div>
+                <div class="card-footer panda-card-footer">
+                  <div class="btn btn-warning">Buy now >></div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 shadow panda-card">
+                <img src="images/bags/bag-2.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Blue Nike</h5>
+                  <h3>$350</h3>
+                  <p class="card-text">The Nike Utility Speed Backpack keeps your gear close, secure and organized when commuting to and from training sessions. Cushioned straps give you comfort on the go, and the pack opens flat for easy access to must-have items..</p>
+                </div>
+                <div class="card-footer panda-card-footer">
+                  <div class="btn btn-warning">Buy now >></div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 shadow panda-card">
+                <img src="images/bags/bag-3.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title"> Black Adidas</h5>
+                  <h3>$360</h3>
+                  <p class="card-text">The Adidas SB RPM Backpack is built to hold it all. From a padded laptop compartment to a place for your board, this durable design keeps all of your essentials close at hand.</p>
+                </div>
+                <div class="card-footer panda-card-footer">
+                  <div class="btn btn-warning">Buy now >></div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </section>
+        <section id="subscribe" style="height: 500px;" class=" bg-success mt-5 d-flex justify-content-center align-items-center">
+          <div>
+            <h1>LET'S STAY IN TOUCH</h1>
+            <h6>Get updates on sales, specials and more</h6>
+            <input type = "text" placeholder="Submit your E-mail address">
+            <button class="btn btn-warning">Submit</button></div>
+          
+        </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <footer class="text-center mt-5">
+      <small>@2020. Panda Commerce. All rigths reserved.</small>
+    </footer>
+</body>
+</html>
